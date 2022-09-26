@@ -88,3 +88,41 @@ p{
     background-color: rgb(30, 144, 255);
     margin-left: 240px;
 }
+
+.fine{
+    background-color: rgb(211, 211, 211);
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+}
+
+.aggiornamenti{
+    padding: 500px;
+    padding-inline-start: 600px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(34, 139, 34);
+}
+
+.sezione4 {
+    background-color: rgb(35, 39, 42);
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+}
+
+.contatti{
+    padding: 200px;
+    padding-inline-start: 90px;
+    display: flex;
+    background-color: rgb(255, 192, 203);
+    margin-left: 240px;
+}
+
+.lista{
+    padding: 200px;
+    padding-inline-start: 0px;
+    display: flex;
+    background-color: rgb(32, 178, 170);
+    border: 1px solid white;
+}
