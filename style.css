@@ -10,7 +10,7 @@ header{
 
 .nav{
     display: flex;
-    width: 920px;
+    width: 1135px;
     margin: 0 auto;
     padding: 20px;
     background-color: rgb(173, 216, 230);
@@ -125,4 +125,32 @@ p{
     display: flex;
     background-color: rgb(32, 178, 170);
     border: 1px solid white;
+}
+
+.finenav{
+    display: flex;
+    width: 1135px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(35, 39, 42);
+    display: flow-root;
+    
+}
+
+.barrafinenav{
+    display: flex;
+    background-color: rgb(113, 221, 185);
+    justify-content: space-between;
+}
+
+.bgfooter{
+    background-color: rgb(35, 39, 42);
+    border-top: 1px solid white;
+}
+
+.cornice{
+    padding: 10px;
+    border: 1px solid;
+    background-color: pink;
+    margin: 5px;
 }
