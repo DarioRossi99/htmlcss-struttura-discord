@@ -28,66 +28,57 @@ p{
     padding: 10px;
 }
 
-.sezione{
+#backgintro{
     background-color: rgb(0, 0, 139);
+}
+
+#backgmain{
+    background-color: rgb(211, 211, 211);
+}
+
+
+.sezione{
     margin: 0 auto;
     padding: 40px;
     display: flex;
+    max-width: 920px;
+    justify-content: center;
 }
 
 .intro{
-    padding: 200px;
-    padding-inline-start: 500px;
-    display: flex;
-    margin: 0 auto;
     background-color: rgb(238, 130, 238);
+    height: 300px;
+    flex-basis: 60%;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    max-width: 920px;
 }
 
 .sezione2{
     background-color: rgb(255, 255, 255);
-    margin: 0 auto;
-    padding: 40px;
-    display: flex;
 }
 
 
 .contesto2{
-    padding: 200px;
-    padding-inline-start: 200px;
-    display: flex;
     background-color: rgb(255, 192, 203);
+    height: 300px;
+    flex-basis: 60%;
 }
 
 .foto2{
-    padding: 200px;
-    padding-inline-start: 500px;
-    display: flex;
     background-color: rgb(30, 144, 255);
-    margin-left: 240px;
+    height: 300px;
+    flex-basis: 40%;    
 }
 
 .sezione3{
     background-color: rgb(211, 211, 211);
-    margin: 0 auto;
-    padding: 40px;
-    display: flex;
 }
 
-
-.contesto3{
-    padding: 200px;
-    padding-inline-start: 500px;
-    display: flex;
-    background-color: rgb(255, 192, 203);
-}
-
-.foto3{
-    padding: 200px;
-    padding-inline-start: 200px;
-    display: flex;
-    background-color: rgb(30, 144, 255);
-    margin-left: 240px;
-}
 
 .fine{
     background-color: rgb(211, 211, 211);
@@ -109,22 +100,24 @@ p{
     margin: 0 auto;
     padding: 40px;
     display: flex;
+    max-width: 920px;
+}
+
+#bgcontactfoot{
+    background-color: rgb(35, 39, 42);
 }
 
 .contatti{
-    padding: 200px;
-    padding-inline-start: 90px;
-    display: flex;
-    background-color: rgb(255, 192, 203);
-    margin-left: 240px;
+    background-color: rgb(240, 128, 128);
+    height: 300px;
+    flex-basis: 30%
 }
 
 .lista{
-    padding: 200px;
-    padding-inline-start: 0px;
-    display: flex;
     background-color: rgb(32, 178, 170);
     border: 1px solid white;
+    height: 300px;
+    flex-basis: 20%;
 }
 
 .finenav{
